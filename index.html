@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Daniel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>DANIEL PÉREZ</h1>
+            <h2>Técnico superior-Desarrollo Aplicaciones Multiplataforma</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/danielperezalejandro"><i class="fa-brands fa-github"></i></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Daniel Pérez,</span> titulado en Desarrollo de Aplicaciones Multiplataforma (DAM). He trabajado en proyectos de desarrollo de aplicaciones de escritorio, web y móviles. Me apasiona aprender y desarrollar mis habilidades para abordar proyectos cada vez más complejos. Estoy emocionado por comenzar mi carrera profesional y contribuir con mis habilidades en nuevos proyectos.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales y Contacto</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            10-10-1998
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            638767176
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            danielperezalejandro98@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Gran Canaria
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mountain-sun"></i>
+                            <span>MONTAÑA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <ul class="skills">
+                        <li class="skill"><span class="circle"></span><span>- JavaScript</span></li>
+                        <li class="skill"><span class="circle"></span><span>- HTML & CSS</span></li>
+                        <li class="skill"><span class="circle"></span><span>- React</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Kotlin</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Java</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Python</span></li>
+                        <li class="skill"><span class="circle"></span><span>- NodeJS</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Spring Boot</span></li>
+                        <li class="skill"><span class="circle"></span><span>- JavaFx</span></li>
+                        <li class="skill"><span class="circle"></span><span>- API RESTful</span></li>
+                        <li class="skill"><span class="circle"></span><span>- MongoDB</span></li>
+                        <li class="skill"><span class="circle"></span><span>- MySQL</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Starlark</span></li>
+                    </ul>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <ul class="skills">
+                        <li class="skill"><span class="circle"></span><span>- Iniciativa y Autonomía</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Gestión del Tiempo</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Control del Estrés</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Adaptabilidad Rápida</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Capacidad de Liderazgo</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Toma de Decisiones</span></li>
+                        <li class="skill"><span class="circle"></span><span>- Pensamiento Emprendedor</span></li>
+
+                    </ul>
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Técnico Superior en Desarrollo de Aplicaciones Multiplataforma</h4>
+                        <span class="casa">IES ANA LUISA</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Bachillerato</h4>
+                        <span class="casa">IES POLITÉCNICO</span>
+                        <span class="fecha">2014 - 2016</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Desarrollador</h4>
+                        <p>Prácticas</p>
+                        <span class="casa">Singular Factory</span>
+                        <span class="fecha">2024 Abril - 2024 Mayo</span>
+                        <ul class="listaTareas">
+                            <li>Desarrollo de Tidbyt apps en Starlark.</li>
+                            <li>Desarrollo de una API para conectar con las aplicaciones Tidbyt.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Responsable Departamento de Gestión</h4>
+                        <span class="casa">Desarrollo Social Canarias</span>
+                        <span class="fecha">2019 Junio - 2021 Noviembre</span>
+                        <ul class="listaTareas">
+                            <li>Coordinación de los equipos de trabajo a cargo, delegando tareas de acuerdo a sus habilidades.</li>
+                            <li>Supervisión del correcto cumplimiento de los procesos administrativos.</li>
+                            <li>Supervisión de la selección y contratación de personal, y de los planes de formación.</li>
+                            <li>Coordinación de turnos y distribución semanal de los horarios de trabajo del equipo.</li>
+                        </ul>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <a href="https://github.com/danielperezalejandro/Maquetaci-n-Freelancer" class="proyecto">
+                    <img src="img/Freelancer.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Maquetación</h3>
+                        <p>HTML, CSS</p>
+                    </div>
+                </a>
+                <a href="https://github.com/danielperezalejandro/card" class="proyecto">
+                    <img src="img/examen1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Maquetación</h3>
+                        <p>HTML, CSS</p>
+                    </div>
+                </a>
+                <a href="https://github.com/danielperezalejandro/slider" class="proyecto">
+                    <img src="img/slider.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Maquetación</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                    </div>
+                </a>
+                <a href="https://github.com/angeljpr6/DoniMusic" class="proyecto">
+                    <img src="img/donimusic.png" alt="">
+                    <div class="overlay">
+                        <h3>Reproductor de Música</h3>
+                        <p>Java, JavaFX, MySQL</p>
+                    </div>
+                </a>
+                <a href="https://github.com/angeljpr6/DoniPost" class="proyecto">
+                    <img src="img/donipost.png" alt="">
+                    <div class="overlay">
+                        <h3>Red Social Full Stack</h3>
+                        <p>JavaScript, NodeJS, React, MongoDB, HTML, CSS</p>
+                    </div>
+                </a>
+                <a href="https://github.com/danielperezalejandro/maquetacion" class="proyecto">
+                    <img src="img/entrevista.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Maquetación</h3>
+                        <p>HTML, CSS</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
