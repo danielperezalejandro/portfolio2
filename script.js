@@ -23,3 +23,12 @@ function seleccionar(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    const link = document.createElement('a');
+    link.href = 'cvDaniel.pdf'; // Reemplaza con la ruta real de tu archivo PDF
+    link.download = 'cvDaniel.pdf'; // Nombre del archivo para la descarga
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
