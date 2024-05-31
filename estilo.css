@@ -679,8 +679,7 @@ footer .arriba{
         width: 100%;
     }
     .portfolio .galeria .proyecto .overlay{
-        top: 0;
-        width: 375px;
+        width: 350px;
         height: 232px;
         text-align: center;
         margin-top: 19px;
